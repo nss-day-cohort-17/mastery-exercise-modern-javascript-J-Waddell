@@ -7,22 +7,38 @@
 </head>
 <body>
 
-    <article></article>icle id="game-container">
+    <article id="game-container">
 
-        <section id="player-setup" class="car card-name">
+        <section id="player-setup" class="card card--name">
             <div class="card__prompt">
                 <div>Robot ID</div>
-                <div class="field">
-                    <input text="text" autofocus="true" id="playerOneName" class="field__textinput">
-                </div>
+                    <div class="field">
+                        <input text="text" autofocus="true" id="playerOneName" class="field__textinput">
+                    </div>
                     <div class="card__button">
                         <a class="card__link btn btn--big btn--orange"
                            href="#"
                            next="card--class">
                           <span class="btn__prompt">></span>
-                          <span class="btn__text">Select Upgrade</span>
+                          <span class="btn__text">Select Terrain</span>
                         </a>
                     </div>
+            </div>
+
+        </section>
+
+        <section id="upgradeSelect" class="card card--upgrade">
+            <div class="card__prompt">
+            <div>Select Terrain</div>
+                <div>
+                    <a class="card__back btn btn--small"
+                        href="#"
+                        previous="card--name">
+                        <span class="btn__prompt">&lt;</span>
+                        <span class="btn__text">Back</span>
+                    </a>
+                </div>
+
             </div>
 
         </section>
